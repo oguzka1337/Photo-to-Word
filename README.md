@@ -9,7 +9,7 @@ A small utility for anyone who sends screenshots to an AI: it collects images in
 ### How to use
 
 1. Take a screenshot with `PrtScn`, or press `Win+Shift+S` and copy the selected area.
-2. Open **`Запустить.bat`**. On first launch, choose the interface language: **English (USA)**, **Russian** or **Chinese (中文)**.
+2. Open **`Run.bat`**. On first launch, choose the interface language: **English (USA)**, **Russian** or **Chinese (中文)**.
 3. Press **Ctrl+V** — the screenshot appears in the window. Repeat for every image you need.
 4. If necessary, change the order with **Earlier / Later**, or delete unwanted images.
 5. Click **Save to Word** and choose where to save the `.docx` file.
@@ -55,7 +55,7 @@ python photo_to_word.py
 - `PhotoToWord.exe` — ready-to-run Windows app (Python not required, translations embedded)
 - `photo_to_word.py` — source code
 - `locales/` — translation files for running from source (`en.json`, `ru.json`, `zh.json`)
-- `Запустить.bat` — launcher: starts the `.exe` first, otherwise runs the Python version
+- `Run.bat` — launcher: starts the `.exe` first, otherwise runs the Python version
 - `requirements.txt` — libraries needed to run from source
 
 ---
